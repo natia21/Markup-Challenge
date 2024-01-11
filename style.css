@@ -1,0 +1,649 @@
+body {
+    font-family: 'Muli';
+    overflow: visible;
+    width: 1600px;
+    /* height: 5870px; */
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.Wrapper {
+    /* max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.box1 {
+    width: 1450px;
+    height: 719px;
+    margin-top: 56px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    padding: 10px;
+
+
+}
+
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 241px;
+    margin-right: 29px;
+
+}
+
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-item a {
+    color: #233348;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.logo-item img {
+    width: 41px;
+    height: 41px;
+
+}
+
+
+.navigation_buttons {
+
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.nav_item {
+    margin: 0 15px;
+}
+
+
+.nav_itemH {
+    margin: 0 15px;
+    font-weight: 700
+}
+
+
+.header-grid-container {
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 241px;
+    margin-right: 29px;
+
+
+}
+
+.grid-item {
+    text-align: left;
+    padding-top: 150px;
+}
+
+.grid-item a {
+    color: #000;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.grid-item p {
+    color: #7D7987;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.consult_button {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: none;
+    background: #458FF6;
+    color: #FFF;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+
+}
+
+.grid_image {
+    width: 693px;
+    height: 598px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.our-services {
+    text-align: center;
+    margin: 15px 125px 15px 170px;
+    border-radius: 5px;
+    margin: 15px 125px 15px 400px;
+    Width: 952px;
+    Height: auto;
+    Top: 967px;
+    Left: 323px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-info h3 {
+    text-align: center;
+    color: #7D7987;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    width: 952px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    Width: 1020px;
+    Height: 800px;
+    border-radius: 20px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.firs-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.service {
+    width: 300px;
+    height: 260px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    margin: 15px;
+    padding: 25px;
+
+}
+
+.service_detail {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.main {
+
+    color: #7D7987;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+
+.service a {
+    Width: 67.29px;
+    Height: 95px;
+    display: flex;
+    justify-items: left;
+}
+
+.learn_more1 {
+    Width: 200px;
+    Height: 56px;
+    Top: 2041px;
+    Left: 700px;
+    border-Radius: 55px;
+    Border: 1.4px solid#458FF6;
+    color: #458FF6;
+
+    font-size: 18px;
+    line-height: 60px;
+    background-color: white;
+    margin-top: 15px;
+
+
+}
+
+.healthcare_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    width: 1273px;
+    height: 477px;
+    margin-top: 150px;
+    margin-left: 150px;
+
+
+}
+
+.healthcare_img {
+    width: 650px;
+    height: 477px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+
+.providers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+
+.providers_headers {
+    width: 481px;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.providers_description {
+    width: 450px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+
+.learn_more2 {
+    color: #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 60px;
+    background-color: white;
+    Border: 1.4px solid#458FF6;
+    color: #458FF6;
+    border-Radius: 55px;
+    width: 200px;
+    margin-top: 50px;
+
+
+}
+
+.mobile_apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 1365.581px;
+
+
+}
+
+.downloads_container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    height: 430px;
+
+}
+
+.downloads_header {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 300px;
+}
+
+.downloads_main_info {
+    width: 410px;
+    color: #7D7987;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+
+.Download_button {
+    color: #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 60px;
+    background-color: white;
+    Border: 1.4px solid#458FF6;
+    color: #458FF6;
+    border-Radius: 55px;
+    width: 200px;
+    margin-top: 50px;
+
+
+}
+
+
+.mobile_apps_img {
+    width: 650px;
+    height: 350px;
+    margin-left: 70px;
+}
+
+.review_box {
+
+    width: 900px;
+    /* width: 80%; */
+    height: 420px;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-left: 52px;
+    padding-top: 15px;
+    padding-right: 47.60px;
+}
+
+.review_box h1 {
+    color: #FFF;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+.founder_container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.reviews_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+.reviews_main_info {
+    width: 420px;
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 25px;
+}
+
+.Founder_img img {
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+
+.name {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 170;
+
+
+
+}
+
+.position {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 119;
+
+
+}
+
+.latest_info_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:900px;
+    /* width: 80%; */
+    margin-top: 150px;
+    margin-left: 200px;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.latest_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   gap: 20px;
+    height: 600px;
+    padding-top: 25px;
+
+}
+
+.article {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    width: 300px;
+    height: 500px;
+}
+
+
+.desc {
+    text-align: left;
+}
+
+.desc h3 {
+    width: 270px;
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+.desc p {
+    width: 266px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    padding-left: 15px;
+
+}
+
+.article_images img {
+    border: 1px solid #FFF;
+    border-top: 20px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.View_all {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 60px;
+    color: #458FF6;
+    background-color: white;
+    border-collapse: collapse;
+    padding: auto;
+
+}
+
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    width: 1450px;
+    /* width: 100%; */
+    height: 330px;
+    background-image: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.footer_1 {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo-item_footer h2 {
+    border-radius: 55px;
+    border: 15px solid white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    color: #5B9BF3;
+    background-color: white;
+    font-style: normal;
+    margin-top: 20px;
+
+
+}
+
+.logo-item_footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-item_footer a {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.what_about_trafalgar {
+    width: 391px;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.PTY_LTD {
+    width: 391px;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.footer_2 {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.table-class th {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.table-class td {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    padding-left: 100px;
+    padding-right: 80px;
+}
